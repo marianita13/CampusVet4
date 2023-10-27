@@ -24,6 +24,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     private IPet _Pets;
     private IService _Services;
     private IState _States;
+    private IRole _Roles;
 
     public IAppointment Appointments{
             get{
@@ -49,15 +50,6 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                     _Cities = new CityRepository(_context);
                 }
                 return _Cities;
-            }
-        }
-
-    public IClient Clients{
-            get{
-                if(_Clients == null){
-                    _Clients = new ClientRepository(_context);
-                }
-                return _Clients;
             }
         }
 
@@ -114,6 +106,25 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                 return _States;
             }
         }
+
+    public IRole Roles {
+            get{
+                if(_Roles == null){
+                    _Roles = new RoleRepository(_context);
+                }
+                return _Roles;
+            }
+        }
+
+    public IClient Clients{
+            get{
+                if(_Clients == null){
+                    _Clients = new ClientRepository(_context);
+                }
+                return _Clients;
+            }
+        }
+
 
     public Task<int> SaveAsync()
     {

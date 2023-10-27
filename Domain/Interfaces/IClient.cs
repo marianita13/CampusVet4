@@ -8,5 +8,6 @@ namespace Domain.Interfaces;
 
 public interface IClient : IGenericRepository<Client>
 {
-    
+    Task<Client> GetByClientnameAsync(string Clientname);
+    Task<Client> GetByRefreshTokenAsync(string Clientname);
 }

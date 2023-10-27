@@ -1,5 +1,6 @@
 using System.Reflection;
 using Domain.entities;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence;
@@ -20,6 +21,7 @@ public class CampusVet4Context : DbContext
     public DbSet<Pet> Pets {get; set;}
     public DbSet<Service> Services {get; set;}
     public DbSet<State> States {get; set;}
+    public DbSet<Rol> Roles {get; set;}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

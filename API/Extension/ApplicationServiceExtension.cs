@@ -65,9 +65,9 @@ namespace API.Extension
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ClockSkew = TimeSpan.Zero,
-                    ValidIssuer = configuration["SHOP:Issuer"],
-                    ValidAudience = configuration["SHOP:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["SHOP:Key"]))
+                    ValidIssuer = configuration["Vet:Issuer"],
+                    ValidAudience = configuration["Vet:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Vet:Key"]))
                 };
             });
     }

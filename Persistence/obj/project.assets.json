@@ -5216,19 +5216,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Janus\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Janus\\OneDrive\\Documentos\\CampusVet4\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\CampusVet4\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\Janus\\OneDrive\\Documentos\\CampusVet4\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Janus\\OneDrive\\Documentos\\CampusVet4\\Persistence\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Documents\\CampusVet4\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\CampusVet4\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5240,8 +5240,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Janus\\OneDrive\\Documentos\\CampusVet4\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Janus\\OneDrive\\Documentos\\CampusVet4\\Domain\\Domain.csproj"
+            "C:\\Users\\USER\\Documents\\CampusVet4\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\CampusVet4\\Domain\\Domain.csproj"
             }
           }
         }
@@ -5281,7 +5281,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

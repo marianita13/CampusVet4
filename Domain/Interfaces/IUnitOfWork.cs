@@ -13,5 +13,6 @@ public interface IUnitOfWork
     IPet Pets { get; }
     IService Services { get; }
     IState States { get; }
+    IRole Roles { get; }
     Task<int> SaveAsync();
 }

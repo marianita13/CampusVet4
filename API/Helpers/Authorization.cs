@@ -7,6 +7,12 @@ namespace Api.Helpers
 {
     public class Authorization
     {
-        
+        public enum Rol{
+            Administrator,
+            Manager,
+            Employee,
+            Person
+        }
+        public const Rol rol_default = Rol.Person;
     }
 }
