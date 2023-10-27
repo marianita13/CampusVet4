@@ -14,7 +14,7 @@ namespace Domain.entities
 
 
         public string TypeOfStreet { get; set; }
-        public int FirstNumbre { get; set; }
+        public int FirstNumber { get; set; }
         public string Letter { get; set; }
         public string Bis { get; set; }
         public string SecondLetter { get; set; }
