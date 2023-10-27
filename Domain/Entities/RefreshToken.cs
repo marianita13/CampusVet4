@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Domain.entities;
 
-namespace Dominio.Entities
+namespace Domain.Entities
 {
     public class RefreshToken : BaseEntity
     {

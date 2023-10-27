@@ -4,7 +4,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Domain.Entities;
-using Dominio.Entities;
 
 namespace Domain.entities
 {

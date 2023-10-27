@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Domain.entities;
+using Domain.Entities;
 
-namespace Domain.Entities
+namespace Domain.entities
 {
     public class ClientRol : BaseEntity
     {
         public int ClientId { get; set; }
         public Client Client { get; set; }
         public int RoleId { get; set; }
-        public Rol Rol { get; set; }
+        public Role Rol { get; set; }
     }
 }

@@ -1,13 +1,13 @@
 using System.IdentityModel.Tokens.Jwt;
-using System.Net;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using Api.Helpers;
 using API.Dtos;
 using API.Helpers;
 using Domain.entities;
+using Domain.Entities;
 using Domain.Interfaces;
-using Dominio.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
